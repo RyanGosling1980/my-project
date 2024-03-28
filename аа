@@ -1,0 +1,44 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фільм "Вонка"</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        #movie-info {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 30px;
+        }
+        #movie-info img {
+            max-width: 300px;
+            border-radius: 8px;
+        }
+        #movie-info p {
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Фільм "Вонка"</h1>
+    <div id="movie-info">
+        <img src="vongka-poster.jpg" alt="Постер фільму Вонка">
+        <p>
+            "Вонка" - це фільм про пригоди головного героя, який вирушає у захопливу подорож 
+            в незвідані країни. З неймовірними обставинами та незабутніми персонажами, цей фільм 
+            залишить вас на краю свого крісла. Приєднуйтесь до нас у цій неймовірній подорожі!
+        </p>
+    </div>
+    <p style="text-align: center;">
+        Дізнайтеся більше про фільм <a href="https://example.com/vongka" target="_blank">тут</a>.
+    </p>
+</body>
+</html>
